@@ -1,0 +1,2613 @@
+iteration: 1
+|block     	|	0     		|	0.00000		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	0     		|	0.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	10.00000		|
+|blinker   	|	9     		|	90.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	10    		|               |
+
+iteration: 2
+|block     	|	17    		|	35.41667		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	0     		|	0.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	2     		|	4.16667		|
+|blinker   	|	29    		|	60.41667		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 3
+|block     	|	17    		|	44.73684		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.63158		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	2.63158		|
+|blinker   	|	18    		|	47.36842		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.63158		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	38    		|               |
+
+iteration: 4
+|block     	|	20    		|	50.00000		|
+|beehive   	|	2     		|	5.00000		|
+|loaf      	|	1     		|	2.50000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	16    		|	40.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.50000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	40    		|               |
+
+iteration: 5
+|block     	|	17    		|	51.51515		|
+|beehive   	|	3     		|	9.09091		|
+|loaf      	|	1     		|	3.03030		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	12    		|	36.36364		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	33    		|               |
+
+iteration: 6
+|block     	|	14    		|	41.17647		|
+|beehive   	|	3     		|	8.82353		|
+|loaf      	|	1     		|	2.94118		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	16    		|	47.05882		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	34    		|               |
+
+iteration: 7
+|block     	|	15    		|	39.47368		|
+|beehive   	|	3     		|	7.89474		|
+|loaf      	|	1     		|	2.63158		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	18    		|	47.36842		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.63158		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	38    		|               |
+
+iteration: 8
+|block     	|	17    		|	56.66667		|
+|beehive   	|	3     		|	10.00000		|
+|loaf      	|	1     		|	3.33333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	8     		|	26.66667		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	3.33333		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	30    		|               |
+
+iteration: 9
+|block     	|	16    		|	45.71429		|
+|beehive   	|	3     		|	8.57143		|
+|loaf      	|	1     		|	2.85714		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	15    		|	42.85714		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	35    		|               |
+
+iteration: 10
+|block     	|	18    		|	45.00000		|
+|beehive   	|	4     		|	10.00000		|
+|loaf      	|	1     		|	2.50000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	17    		|	42.50000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	40    		|               |
+
+iteration: 11
+|block     	|	17    		|	43.58974		|
+|beehive   	|	4     		|	10.25641		|
+|loaf      	|	1     		|	2.56410		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	16    		|	41.02564		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.56410		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	39    		|               |
+
+iteration: 12
+|block     	|	16    		|	34.78261		|
+|beehive   	|	3     		|	6.52174		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	54.34783		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.17391		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 13
+|block     	|	19    		|	41.30435		|
+|beehive   	|	2     		|	4.34783		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	52.17391		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 14
+|block     	|	16    		|	36.36364		|
+|beehive   	|	2     		|	4.54545		|
+|loaf      	|	1     		|	2.27273		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	56.81818		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	44    		|               |
+
+iteration: 15
+|block     	|	20    		|	38.46154		|
+|beehive   	|	2     		|	3.84615		|
+|loaf      	|	1     		|	1.92308		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	53.84615		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.92308		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 16
+|block     	|	18    		|	36.73469		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	55.10204		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.04082		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 17
+|block     	|	22    		|	44.89796		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	48.97959		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 18
+|block     	|	18    		|	45.00000		|
+|beehive   	|	2     		|	5.00000		|
+|loaf      	|	1     		|	2.50000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	19    		|	47.50000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	40    		|               |
+
+iteration: 19
+|block     	|	18    		|	33.33333		|
+|beehive   	|	2     		|	3.70370		|
+|loaf      	|	1     		|	1.85185		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	59.25926		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.85185		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 20
+|block     	|	22    		|	37.28814		|
+|beehive   	|	2     		|	3.38983		|
+|loaf      	|	1     		|	1.69492		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	55.93220		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.69492		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 21
+|block     	|	18    		|	37.50000		|
+|beehive   	|	2     		|	4.16667		|
+|loaf      	|	1     		|	2.08333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	56.25000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 22
+|block     	|	21    		|	42.00000		|
+|beehive   	|	2     		|	4.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	26    		|	52.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 23
+|block     	|	20    		|	38.46154		|
+|beehive   	|	2     		|	3.84615		|
+|loaf      	|	1     		|	1.92308		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	53.84615		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.92308		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 24
+|block     	|	22    		|	40.74074		|
+|beehive   	|	2     		|	3.70370		|
+|loaf      	|	1     		|	1.85185		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	50.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	1     		|	1.85185		|
+|glider    	|	1     		|	1.85185		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 25
+|block     	|	17    		|	33.33333		|
+|beehive   	|	2     		|	3.92157		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	60.78431		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 26
+|block     	|	18    		|	39.13043		|
+|beehive   	|	2     		|	4.34783		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	54.34783		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 27
+|block     	|	19    		|	37.25490		|
+|beehive   	|	2     		|	3.92157		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	54.90196		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.96078		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 28
+|block     	|	14    		|	29.78723		|
+|beehive   	|	2     		|	4.25532		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	61.70213		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.12766		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 29
+|block     	|	17    		|	36.17021		|
+|beehive   	|	2     		|	4.25532		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	57.44681		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 30
+|block     	|	12    		|	25.00000		|
+|beehive   	|	2     		|	4.16667		|
+|loaf      	|	1     		|	2.08333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	68.75000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 31
+|block     	|	14    		|	32.55814		|
+|beehive   	|	2     		|	4.65116		|
+|loaf      	|	1     		|	2.32558		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	2.32558		|
+|blinker   	|	24    		|	55.81395		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.32558		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 32
+|block     	|	22    		|	38.59649		|
+|beehive   	|	2     		|	3.50877		|
+|loaf      	|	1     		|	1.75439		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	2     		|	3.50877		|
+|blinker   	|	29    		|	50.87719		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.75439		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 33
+|block     	|	15    		|	29.41176		|
+|beehive   	|	2     		|	3.92157		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.96078		|
+|blinker   	|	32    		|	62.74510		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 34
+|block     	|	13    		|	28.26087		|
+|beehive   	|	2     		|	4.34783		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	65.21739		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 35
+|block     	|	17    		|	36.95652		|
+|beehive   	|	2     		|	4.34783		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	54.34783		|
+|toad      	|	1     		|	2.17391		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 36
+|block     	|	18    		|	33.33333		|
+|beehive   	|	2     		|	3.70370		|
+|loaf      	|	1     		|	1.85185		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	61.11111		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 37
+|block     	|	16    		|	30.76923		|
+|beehive   	|	2     		|	3.84615		|
+|loaf      	|	1     		|	1.92308		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	63.46154		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 38
+|block     	|	18    		|	36.73469		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	57.14286		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 39
+|block     	|	16    		|	29.62963		|
+|beehive   	|	2     		|	3.70370		|
+|loaf      	|	1     		|	1.85185		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	64.81481		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 40
+|block     	|	21    		|	42.85714		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	51.02041		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 41
+|block     	|	19    		|	34.54545		|
+|beehive   	|	2     		|	3.63636		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	60.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 42
+|block     	|	13    		|	25.49020		|
+|beehive   	|	2     		|	3.92157		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	68.62745		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 43
+|block     	|	16    		|	32.65306		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	61.22449		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 44
+|block     	|	17    		|	34.69388		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	2     		|	4.08163		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	57.14286		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 45
+|block     	|	24    		|	40.67797		|
+|beehive   	|	2     		|	3.38983		|
+|loaf      	|	2     		|	3.38983		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	52.54237		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 46
+|block     	|	19    		|	39.58333		|
+|beehive   	|	2     		|	4.16667		|
+|loaf      	|	2     		|	4.16667		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	52.08333		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 47
+|block     	|	16    		|	33.33333		|
+|beehive   	|	2     		|	4.16667		|
+|loaf      	|	2     		|	4.16667		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	2.08333		|
+|blinker   	|	26    		|	54.16667		|
+|toad      	|	1     		|	2.08333		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 48
+|block     	|	19    		|	44.18605		|
+|beehive   	|	2     		|	4.65116		|
+|loaf      	|	1     		|	2.32558		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	21    		|	48.83721		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 49
+|block     	|	19    		|	38.77551		|
+|beehive   	|	2     		|	4.08163		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	55.10204		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 50
+|block     	|	15    		|	32.60870		|
+|beehive   	|	3     		|	6.52174		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	26    		|	56.52174		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.17391		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 51
+|block     	|	16    		|	34.78261		|
+|beehive   	|	3     		|	6.52174		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	54.34783		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.17391		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 52
+|block     	|	18    		|	38.29787		|
+|beehive   	|	3     		|	6.38298		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	51.06383		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.12766		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 53
+|block     	|	17    		|	34.69388		|
+|beehive   	|	3     		|	6.12245		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	57.14286		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 54
+|block     	|	17    		|	32.07547		|
+|beehive   	|	2     		|	3.77358		|
+|loaf      	|	1     		|	1.88679		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.88679		|
+|blinker   	|	32    		|	60.37736		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 55
+|block     	|	18    		|	32.72727		|
+|beehive   	|	2     		|	3.63636		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.81818		|
+|blinker   	|	33    		|	60.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 56
+|block     	|	19    		|	37.25490		|
+|beehive   	|	2     		|	3.92157		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.96078		|
+|blinker   	|	28    		|	54.90196		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 57
+|block     	|	15    		|	28.84615		|
+|beehive   	|	1     		|	1.92308		|
+|loaf      	|	1     		|	1.92308		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.92308		|
+|blinker   	|	33    		|	63.46154		|
+|toad      	|	1     		|	1.92308		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 58
+|block     	|	13    		|	28.26087		|
+|beehive   	|	1     		|	2.17391		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	2.17391		|
+|blinker   	|	30    		|	65.21739		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 59
+|block     	|	21    		|	39.62264		|
+|beehive   	|	1     		|	1.88679		|
+|loaf      	|	1     		|	1.88679		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	56.60377		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 60
+|block     	|	17    		|	33.33333		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	62.74510		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 61
+|block     	|	20    		|	37.73585		|
+|beehive   	|	1     		|	1.88679		|
+|loaf      	|	1     		|	1.88679		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	58.49057		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 62
+|block     	|	19    		|	33.92857		|
+|beehive   	|	1     		|	1.78571		|
+|loaf      	|	1     		|	1.78571		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	62.50000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	56    		|               |
+
+iteration: 63
+|block     	|	16    		|	34.04255		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	61.70213		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 64
+|block     	|	22    		|	38.59649		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	1     		|	1.75439		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	57.89474		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 65
+|block     	|	18    		|	31.57895		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	1     		|	1.75439		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	64.91228		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 66
+|block     	|	17    		|	32.07547		|
+|beehive   	|	1     		|	1.88679		|
+|loaf      	|	1     		|	1.88679		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.88679		|
+|blinker   	|	32    		|	60.37736		|
+|toad      	|	1     		|	1.88679		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 67
+|block     	|	19    		|	37.25490		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	56.86275		|
+|toad      	|	1     		|	1.96078		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 68
+|block     	|	23    		|	42.59259		|
+|beehive   	|	1     		|	1.85185		|
+|loaf      	|	1     		|	1.85185		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	53.70370		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 69
+|block     	|	21    		|	38.18182		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	58.18182		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 70
+|block     	|	18    		|	32.72727		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.81818		|
+|blinker   	|	34    		|	61.81818		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 71
+|block     	|	21    		|	43.75000		|
+|beehive   	|	1     		|	2.08333		|
+|loaf      	|	1     		|	2.08333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	52.08333		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 72
+|block     	|	23    		|	41.81818		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	52.72727		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.81818		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 73
+|block     	|	20    		|	39.21569		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	56.86275		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 74
+|block     	|	24    		|	37.50000		|
+|beehive   	|	1     		|	1.56250		|
+|loaf      	|	1     		|	1.56250		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	38    		|	59.37500		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	64    		|               |
+
+iteration: 75
+|block     	|	21    		|	39.62264		|
+|beehive   	|	1     		|	1.88679		|
+|loaf      	|	1     		|	1.88679		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	54.71698		|
+|toad      	|	1     		|	1.88679		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 76
+|block     	|	22    		|	37.93103		|
+|beehive   	|	1     		|	1.72414		|
+|loaf      	|	1     		|	1.72414		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	34    		|	58.62069		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	58    		|               |
+
+iteration: 77
+|block     	|	18    		|	32.72727		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	63.63636		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 78
+|block     	|	20    		|	33.33333		|
+|beehive   	|	1     		|	1.66667		|
+|loaf      	|	1     		|	1.66667		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	61.66667		|
+|toad      	|	1     		|	1.66667		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	60    		|               |
+
+iteration: 79
+|block     	|	22    		|	35.48387		|
+|beehive   	|	1     		|	1.61290		|
+|loaf      	|	1     		|	1.61290		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	38    		|	61.29032		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	62    		|               |
+
+iteration: 80
+|block     	|	22    		|	40.00000		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	56.36364		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 81
+|block     	|	20    		|	36.36364		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	60.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 82
+|block     	|	13    		|	30.23256		|
+|beehive   	|	1     		|	2.32558		|
+|loaf      	|	1     		|	2.32558		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	65.11628		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 83
+|block     	|	17    		|	29.31034		|
+|beehive   	|	1     		|	1.72414		|
+|loaf      	|	1     		|	1.72414		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	39    		|	67.24138		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	58    		|               |
+
+iteration: 84
+|block     	|	14    		|	28.57143		|
+|beehive   	|	1     		|	2.04082		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	67.34694		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 85
+|block     	|	17    		|	32.69231		|
+|beehive   	|	1     		|	1.92308		|
+|loaf      	|	1     		|	1.92308		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	61.53846		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.92308		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 86
+|block     	|	18    		|	30.50847		|
+|beehive   	|	1     		|	1.69492		|
+|loaf      	|	1     		|	1.69492		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	38    		|	64.40678		|
+|toad      	|	1     		|	1.69492		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 87
+|block     	|	18    		|	31.57895		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	2     		|	3.50877		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	36    		|	63.15789		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 88
+|block     	|	18    		|	33.33333		|
+|beehive   	|	1     		|	1.85185		|
+|loaf      	|	2     		|	3.70370		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	61.11111		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 89
+|block     	|	16    		|	28.57143		|
+|beehive   	|	1     		|	1.78571		|
+|loaf      	|	2     		|	3.57143		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	66.07143		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	56    		|               |
+
+iteration: 90
+|block     	|	16    		|	34.78261		|
+|beehive   	|	1     		|	2.17391		|
+|loaf      	|	2     		|	4.34783		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	54.34783		|
+|toad      	|	2     		|	4.34783		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 91
+|block     	|	20    		|	35.08772		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	2     		|	3.50877		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	34    		|	59.64912		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 92
+|block     	|	17    		|	34.69388		|
+|beehive   	|	1     		|	2.04082		|
+|loaf      	|	2     		|	4.08163		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	57.14286		|
+|toad      	|	1     		|	2.04082		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 93
+|block     	|	15    		|	29.41176		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	2     		|	3.92157		|
+|boat      	|	1     		|	1.96078		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	60.78431		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.96078		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 94
+|block     	|	18    		|	30.50847		|
+|beehive   	|	1     		|	1.69492		|
+|loaf      	|	2     		|	3.38983		|
+|boat      	|	1     		|	1.69492		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	62.71186		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 95
+|block     	|	17    		|	28.33333		|
+|beehive   	|	1     		|	1.66667		|
+|loaf      	|	2     		|	3.33333		|
+|boat      	|	1     		|	1.66667		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	39    		|	65.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	60    		|               |
+
+iteration: 96
+|block     	|	16    		|	29.09091		|
+|beehive   	|	1     		|	1.81818		|
+|loaf      	|	2     		|	3.63636		|
+|boat      	|	1     		|	1.81818		|
+|tub       	|	1     		|	1.81818		|
+|blinker   	|	34    		|	61.81818		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 97
+|block     	|	17    		|	28.33333		|
+|beehive   	|	2     		|	3.33333		|
+|loaf      	|	2     		|	3.33333		|
+|boat      	|	1     		|	1.66667		|
+|tub       	|	1     		|	1.66667		|
+|blinker   	|	37    		|	61.66667		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	60    		|               |
+
+iteration: 98
+|block     	|	15    		|	29.41176		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	2     		|	3.92157		|
+|boat      	|	1     		|	1.96078		|
+|tub       	|	1     		|	1.96078		|
+|blinker   	|	31    		|	60.78431		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 99
+|block     	|	14    		|	26.41509		|
+|beehive   	|	2     		|	3.77358		|
+|loaf      	|	2     		|	3.77358		|
+|boat      	|	1     		|	1.88679		|
+|tub       	|	1     		|	1.88679		|
+|blinker   	|	33    		|	62.26415		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 100
+|block     	|	15    		|	24.59016		|
+|beehive   	|	3     		|	4.91803		|
+|loaf      	|	2     		|	3.27869		|
+|boat      	|	2     		|	3.27869		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	39    		|	63.93443		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	61    		|               |
+
+iteration: 101
+|block     	|	18    		|	26.08696		|
+|beehive   	|	2     		|	2.89855		|
+|loaf      	|	2     		|	2.89855		|
+|boat      	|	1     		|	1.44928		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	46    		|	66.66667		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	69    		|               |
+
+iteration: 102
+|block     	|	14    		|	28.00000		|
+|beehive   	|	2     		|	4.00000		|
+|loaf      	|	2     		|	4.00000		|
+|boat      	|	2     		|	4.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	58.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 103
+|block     	|	21    		|	30.88235		|
+|beehive   	|	2     		|	2.94118		|
+|loaf      	|	2     		|	2.94118		|
+|boat      	|	1     		|	1.47059		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	42    		|	61.76471		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	68    		|               |
+
+iteration: 104
+|block     	|	19    		|	34.54545		|
+|beehive   	|	2     		|	3.63636		|
+|loaf      	|	2     		|	3.63636		|
+|boat      	|	1     		|	1.81818		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	56.36364		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 105
+|block     	|	18    		|	31.57895		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	2     		|	3.50877		|
+|boat      	|	1     		|	1.75439		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	61.40351		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 106
+|block     	|	15    		|	28.84615		|
+|beehive   	|	1     		|	1.92308		|
+|loaf      	|	2     		|	3.84615		|
+|boat      	|	1     		|	1.92308		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	63.46154		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 107
+|block     	|	18    		|	28.12500		|
+|beehive   	|	1     		|	1.56250		|
+|loaf      	|	2     		|	3.12500		|
+|boat      	|	1     		|	1.56250		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	42    		|	65.62500		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	64    		|               |
+
+iteration: 108
+|block     	|	21    		|	33.33333		|
+|beehive   	|	1     		|	1.58730		|
+|loaf      	|	2     		|	3.17460		|
+|boat      	|	1     		|	1.58730		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	36    		|	57.14286		|
+|toad      	|	1     		|	1.58730		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.58730		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	63    		|               |
+
+iteration: 109
+|block     	|	19    		|	32.20339		|
+|beehive   	|	1     		|	1.69492		|
+|loaf      	|	2     		|	3.38983		|
+|boat      	|	1     		|	1.69492		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	36    		|	61.01695		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 110
+|block     	|	18    		|	33.33333		|
+|beehive   	|	1     		|	1.85185		|
+|loaf      	|	2     		|	3.70370		|
+|boat      	|	1     		|	1.85185		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	57.40741		|
+|toad      	|	1     		|	1.85185		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 111
+|block     	|	21    		|	31.81818		|
+|beehive   	|	1     		|	1.51515		|
+|loaf      	|	2     		|	3.03030		|
+|boat      	|	1     		|	1.51515		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	41    		|	62.12121		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	66    		|               |
+
+iteration: 112
+|block     	|	16    		|	28.07018		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	2     		|	3.50877		|
+|boat      	|	1     		|	1.75439		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	64.91228		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 113
+|block     	|	22    		|	37.28814		|
+|beehive   	|	1     		|	1.69492		|
+|loaf      	|	2     		|	3.38983		|
+|boat      	|	1     		|	1.69492		|
+|tub       	|	1     		|	1.69492		|
+|blinker   	|	31    		|	52.54237		|
+|toad      	|	1     		|	1.69492		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 114
+|block     	|	20    		|	30.76923		|
+|beehive   	|	1     		|	1.53846		|
+|loaf      	|	2     		|	3.07692		|
+|boat      	|	1     		|	1.53846		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	41    		|	63.07692		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	65    		|               |
+
+iteration: 115
+|block     	|	20    		|	33.89831		|
+|beehive   	|	1     		|	1.69492		|
+|loaf      	|	2     		|	3.38983		|
+|boat      	|	1     		|	1.69492		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	34    		|	57.62712		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.69492		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 116
+|block     	|	17    		|	26.98413		|
+|beehive   	|	1     		|	1.58730		|
+|loaf      	|	2     		|	3.17460		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	42    		|	66.66667		|
+|toad      	|	1     		|	1.58730		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	63    		|               |
+
+iteration: 117
+|block     	|	15    		|	30.00000		|
+|beehive   	|	1     		|	2.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	1     		|	2.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	62.00000		|
+|toad      	|	1     		|	2.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 118
+|block     	|	22    		|	36.66667		|
+|beehive   	|	2     		|	3.33333		|
+|loaf      	|	1     		|	1.66667		|
+|boat      	|	1     		|	1.66667		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	55.00000		|
+|toad      	|	1     		|	1.66667		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	60    		|               |
+
+iteration: 119
+|block     	|	18    		|	30.50847		|
+|beehive   	|	2     		|	3.38983		|
+|loaf      	|	1     		|	1.69492		|
+|boat      	|	1     		|	1.69492		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	62.71186		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 120
+|block     	|	27    		|	39.13043		|
+|beehive   	|	1     		|	1.44928		|
+|loaf      	|	1     		|	1.44928		|
+|boat      	|	1     		|	1.44928		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	38    		|	55.07246		|
+|toad      	|	1     		|	1.44928		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	69    		|               |
+
+iteration: 121
+|block     	|	21    		|	32.30769		|
+|beehive   	|	1     		|	1.53846		|
+|loaf      	|	1     		|	1.53846		|
+|boat      	|	1     		|	1.53846		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	40    		|	61.53846		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.53846		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	65    		|               |
+
+iteration: 122
+|block     	|	26    		|	36.11111		|
+|beehive   	|	2     		|	2.77778		|
+|loaf      	|	1     		|	1.38889		|
+|boat      	|	1     		|	1.38889		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	42    		|	58.33333		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	72    		|               |
+
+iteration: 123
+|block     	|	26    		|	39.39394		|
+|beehive   	|	2     		|	3.03030		|
+|loaf      	|	1     		|	1.51515		|
+|boat      	|	1     		|	1.51515		|
+|tub       	|	1     		|	1.51515		|
+|blinker   	|	34    		|	51.51515		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.51515		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	66    		|               |
+
+iteration: 124
+|block     	|	28    		|	38.35616		|
+|beehive   	|	2     		|	2.73973		|
+|loaf      	|	1     		|	1.36986		|
+|boat      	|	1     		|	1.36986		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	41    		|	56.16438		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	73    		|               |
+
+iteration: 125
+|block     	|	28    		|	45.90164		|
+|beehive   	|	3     		|	4.91803		|
+|loaf      	|	1     		|	1.63934		|
+|boat      	|	1     		|	1.63934		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	45.90164		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	61    		|               |
+
+iteration: 126
+|block     	|	30    		|	40.54054		|
+|beehive   	|	3     		|	4.05405		|
+|loaf      	|	1     		|	1.35135		|
+|boat      	|	1     		|	1.35135		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	38    		|	51.35135		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.35135		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	74    		|               |
+
+iteration: 127
+|block     	|	23    		|	45.09804		|
+|beehive   	|	2     		|	3.92157		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	1     		|	1.96078		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	47.05882		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 128
+|block     	|	29    		|	40.84507		|
+|beehive   	|	2     		|	2.81690		|
+|loaf      	|	1     		|	1.40845		|
+|boat      	|	1     		|	1.40845		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	38    		|	53.52113		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	71    		|               |
+
+iteration: 129
+|block     	|	27    		|	42.85714		|
+|beehive   	|	2     		|	3.17460		|
+|loaf      	|	2     		|	3.17460		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	50.79365		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	63    		|               |
+
+iteration: 130
+|block     	|	20    		|	33.89831		|
+|beehive   	|	2     		|	3.38983		|
+|loaf      	|	1     		|	1.69492		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.69492		|
+|blinker   	|	35    		|	59.32203		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 131
+|block     	|	22    		|	34.37500		|
+|beehive   	|	1     		|	1.56250		|
+|loaf      	|	1     		|	1.56250		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	39    		|	60.93750		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.56250		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	64    		|               |
+
+iteration: 132
+|block     	|	25    		|	40.32258		|
+|beehive   	|	1     		|	1.61290		|
+|loaf      	|	0     		|	0.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	34    		|	54.83871		|
+|toad      	|	1     		|	1.61290		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.61290		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	62    		|               |
+
+iteration: 133
+|block     	|	22    		|	36.66667		|
+|beehive   	|	1     		|	1.66667		|
+|loaf      	|	0     		|	0.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	61.66667		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	60    		|               |
+
+iteration: 134
+|block     	|	17    		|	29.31034		|
+|beehive   	|	1     		|	1.72414		|
+|loaf      	|	0     		|	0.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	39    		|	67.24138		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.72414		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	58    		|               |
+
+iteration: 135
+|block     	|	23    		|	34.32836		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.49254		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	41    		|	61.19403		|
+|toad      	|	1     		|	1.49254		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.49254		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	67    		|               |
+
+iteration: 136
+|block     	|	25    		|	36.23188		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.44928		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	1.44928		|
+|blinker   	|	42    		|	60.86957		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	69    		|               |
+
+iteration: 137
+|block     	|	27    		|	37.50000		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.38889		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	43    		|	59.72222		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.38889		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	72    		|               |
+
+iteration: 138
+|block     	|	19    		|	34.54545		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.81818		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	63.63636		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	55    		|               |
+
+iteration: 139
+|block     	|	21    		|	33.33333		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.58730		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	41    		|	65.07937		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	63    		|               |
+
+iteration: 140
+|block     	|	18    		|	34.61538		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.92308		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	61.53846		|
+|toad      	|	1     		|	1.92308		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 141
+|block     	|	19    		|	38.00000		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	60.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 142
+|block     	|	21    		|	35.59322		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.69492		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	37    		|	62.71186		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	59    		|               |
+
+iteration: 143
+|block     	|	26    		|	43.33333		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.66667		|
+|boat      	|	1     		|	1.66667		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	53.33333		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	60    		|               |
+
+iteration: 144
+|block     	|	21    		|	41.17647		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	56.86275		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 145
+|block     	|	20    		|	40.81633		|
+|beehive   	|	1     		|	2.04082		|
+|loaf      	|	1     		|	2.04082		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	55.10204		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 146
+|block     	|	19    		|	37.25490		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	56.86275		|
+|toad      	|	1     		|	1.96078		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 147
+|block     	|	21    		|	36.84211		|
+|beehive   	|	1     		|	1.75439		|
+|loaf      	|	1     		|	1.75439		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	34    		|	59.64912		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
+iteration: 148
+|block     	|	19    		|	35.18519		|
+|beehive   	|	1     		|	1.85185		|
+|loaf      	|	1     		|	1.85185		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	33    		|	61.11111		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 149
+|block     	|	21    		|	50.00000		|
+|beehive   	|	2     		|	4.76190		|
+|loaf      	|	1     		|	2.38095		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	18    		|	42.85714		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	42    		|               |
+
+iteration: 150
+|block     	|	15    		|	35.71429		|
+|beehive   	|	1     		|	2.38095		|
+|loaf      	|	1     		|	2.38095		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	57.14286		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.38095		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	42    		|               |
+
+iteration: 151
+|block     	|	15    		|	38.46154		|
+|beehive   	|	1     		|	2.56410		|
+|loaf      	|	1     		|	2.56410		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	22    		|	56.41026		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	39    		|               |
+
+iteration: 152
+|block     	|	15    		|	38.46154		|
+|beehive   	|	1     		|	2.56410		|
+|loaf      	|	1     		|	2.56410		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	22    		|	56.41026		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	39    		|               |
+
+iteration: 153
+|block     	|	18    		|	33.96226		|
+|beehive   	|	1     		|	1.88679		|
+|loaf      	|	1     		|	1.88679		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	60.37736		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	1.88679		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	53    		|               |
+
+iteration: 154
+|block     	|	18    		|	43.90244		|
+|beehive   	|	1     		|	2.43902		|
+|loaf      	|	1     		|	2.43902		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	21    		|	51.21951		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	41    		|               |
+
+iteration: 155
+|block     	|	17    		|	40.47619		|
+|beehive   	|	1     		|	2.38095		|
+|loaf      	|	1     		|	2.38095		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	23    		|	54.76190		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	42    		|               |
+
+iteration: 156
+|block     	|	17    		|	36.95652		|
+|beehive   	|	1     		|	2.17391		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	1     		|	2.17391		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	26    		|	56.52174		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 157
+|block     	|	16    		|	40.00000		|
+|beehive   	|	2     		|	5.00000		|
+|loaf      	|	1     		|	2.50000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	20    		|	50.00000		|
+|toad      	|	1     		|	2.50000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	40    		|               |
+
+iteration: 158
+|block     	|	21    		|	45.65217		|
+|beehive   	|	1     		|	2.17391		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	23    		|	50.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 159
+|block     	|	19    		|	41.30435		|
+|beehive   	|	1     		|	2.17391		|
+|loaf      	|	2     		|	4.34783		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	52.17391		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 160
+|block     	|	18    		|	41.86047		|
+|beehive   	|	1     		|	2.32558		|
+|loaf      	|	1     		|	2.32558		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	23    		|	53.48837		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 161
+|block     	|	19    		|	43.18182		|
+|beehive   	|	1     		|	2.27273		|
+|loaf      	|	1     		|	2.27273		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	23    		|	52.27273		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	44    		|               |
+
+iteration: 162
+|block     	|	19    		|	40.42553		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	26    		|	55.31915		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 163
+|block     	|	22    		|	44.00000		|
+|beehive   	|	2     		|	4.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	48.00000		|
+|toad      	|	1     		|	2.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 164
+|block     	|	18    		|	39.13043		|
+|beehive   	|	2     		|	4.34783		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	54.34783		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 165
+|block     	|	18    		|	38.29787		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	57.44681		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 166
+|block     	|	19    		|	38.00000		|
+|beehive   	|	1     		|	2.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	58.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 167
+|block     	|	18    		|	38.29787		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	57.44681		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 168
+|block     	|	17    		|	35.41667		|
+|beehive   	|	1     		|	2.08333		|
+|loaf      	|	1     		|	2.08333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	58.33333		|
+|toad      	|	1     		|	2.08333		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 169
+|block     	|	19    		|	35.18519		|
+|beehive   	|	1     		|	1.85185		|
+|loaf      	|	2     		|	3.70370		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	59.25926		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	54    		|               |
+
+iteration: 170
+|block     	|	19    		|	38.77551		|
+|beehive   	|	1     		|	2.04082		|
+|loaf      	|	2     		|	4.08163		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	55.10204		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 171
+|block     	|	15    		|	31.91489		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	63.82979		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 172
+|block     	|	18    		|	35.29412		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	1     		|	1.96078		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	31    		|	60.78431		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 173
+|block     	|	15    		|	31.91489		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	61.70213		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	1     		|	2.12766		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 174
+|block     	|	18    		|	29.03226		|
+|beehive   	|	1     		|	1.61290		|
+|loaf      	|	1     		|	1.61290		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	42    		|	67.74194		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	62    		|               |
+
+iteration: 175
+|block     	|	16    		|	34.04255		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	1     		|	2.12766		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	61.70213		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 176
+|block     	|	18    		|	36.00000		|
+|beehive   	|	1     		|	2.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	60.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 177
+|block     	|	14    		|	32.55814		|
+|beehive   	|	1     		|	2.32558		|
+|loaf      	|	2     		|	4.65116		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	58.13953		|
+|toad      	|	1     		|	2.32558		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 178
+|block     	|	20    		|	39.21569		|
+|beehive   	|	1     		|	1.96078		|
+|loaf      	|	2     		|	3.92157		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	54.90196		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	51    		|               |
+
+iteration: 179
+|block     	|	20    		|	43.47826		|
+|beehive   	|	1     		|	2.17391		|
+|loaf      	|	1     		|	2.17391		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	24    		|	52.17391		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 180
+|block     	|	18    		|	37.50000		|
+|beehive   	|	1     		|	2.08333		|
+|loaf      	|	1     		|	2.08333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	58.33333		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 181
+|block     	|	17    		|	44.73684		|
+|beehive   	|	1     		|	2.63158		|
+|loaf      	|	1     		|	2.63158		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	18    		|	47.36842		|
+|toad      	|	1     		|	2.63158		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	38    		|               |
+
+iteration: 182
+|block     	|	19    		|	38.00000		|
+|beehive   	|	1     		|	2.00000		|
+|loaf      	|	1     		|	2.00000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	29    		|	58.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 183
+|block     	|	14    		|	41.17647		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.94118		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	19    		|	55.88235		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	34    		|               |
+
+iteration: 184
+|block     	|	18    		|	46.15385		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.56410		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	20    		|	51.28205		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	39    		|               |
+
+iteration: 185
+|block     	|	16    		|	40.00000		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.50000		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	22    		|	55.00000		|
+|toad      	|	1     		|	2.50000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	40    		|               |
+
+iteration: 186
+|block     	|	13    		|	36.11111		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.77778		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	22    		|	61.11111		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	36    		|               |
+
+iteration: 187
+|block     	|	16    		|	37.20930		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.32558		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	26    		|	60.46512		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 188
+|block     	|	16    		|	38.09524		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.38095		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	25    		|	59.52381		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	42    		|               |
+
+iteration: 189
+|block     	|	14    		|	40.00000		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.85714		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	20    		|	57.14286		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	35    		|               |
+
+iteration: 190
+|block     	|	14    		|	32.55814		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.32558		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	65.11628		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 191
+|block     	|	15    		|	39.47368		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.63158		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	22    		|	57.89474		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	38    		|               |
+
+iteration: 192
+|block     	|	17    		|	35.41667		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	1     		|	2.08333		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	62.50000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 193
+|block     	|	14    		|	32.55814		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	4.65116		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	27    		|	62.79070		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	43    		|               |
+
+iteration: 194
+|block     	|	16    		|	33.33333		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	4.16667		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	62.50000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	48    		|               |
+
+iteration: 195
+|block     	|	17    		|	32.69231		|
+|beehive   	|	1     		|	1.92308		|
+|loaf      	|	2     		|	3.84615		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	32    		|	61.53846		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	52    		|               |
+
+iteration: 196
+|block     	|	17    		|	34.69388		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	4.08163		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	30    		|	61.22449		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	49    		|               |
+
+iteration: 197
+|block     	|	16    		|	34.78261		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	4.34783		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	1     		|	2.17391		|
+|blinker   	|	27    		|	58.69565		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	46    		|               |
+
+iteration: 198
+|block     	|	17    		|	36.17021		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	4.25532		|
+|boat      	|	1     		|	2.12766		|
+|tub       	|	1     		|	2.12766		|
+|blinker   	|	25    		|	53.19149		|
+|toad      	|	1     		|	2.12766		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 199
+|block     	|	18    		|	36.00000		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	4.00000		|
+|boat      	|	1     		|	2.00000		|
+|tub       	|	1     		|	2.00000		|
+|blinker   	|	28    		|	56.00000		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	50    		|               |
+
+iteration: 200
+|block     	|	16    		|	34.04255		|
+|beehive   	|	1     		|	2.12766		|
+|loaf      	|	2     		|	4.25532		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	28    		|	59.57447		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	47    		|               |
+
+iteration: 201
+|block     	|	20    		|	35.08772		|
+|beehive   	|	0     		|	0.00000		|
+|loaf      	|	2     		|	3.50877		|
+|boat      	|	0     		|	0.00000		|
+|tub       	|	0     		|	0.00000		|
+|blinker   	|	35    		|	61.40351		|
+|toad      	|	0     		|	0.00000		|
+|beacon    	|	0     		|	0.00000		|
+|glider    	|	0     		|	0.00000		|
+|light-weight spaceship	|	0     		|	0.00000		|
+|total      |	57    		|               |
+
