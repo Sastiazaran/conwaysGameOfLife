@@ -99,20 +99,25 @@ def count_patterns(grid):
     rows, cols = g.shape
     occupied = np.zeros((rows, cols), dtype=bool)
     counts = {name: 0 for name in PATTERN_NAMES}
+    windows_by_shape = {}
 
     for pattern in all_patterns:
         for padded in pattern.variants:
             ph, pw = padded.shape
             if ph > rows or pw > cols:
                 continue
-            for i in range(rows - ph + 1):
-                for j in range(cols - pw + 1):
-                    region = occupied[i:i + ph, j:j + pw]
-                    if region.any():
-                        continue
-                    if np.array_equal(g[i:i + ph, j:j + pw], padded):
-                        counts[pattern.name] += 1
-                        region[:] = True
+            key = (ph, pw)
+            if key not in windows_by_shape:
+                windows_by_shape[key] = np.lib.stride_tricks.sliding_window_view(g, key)
+            matches = np.all(windows_by_shape[key] == padded, axis=(2, 3))
+            if not matches.any():
+                continue
+            for i, j in np.argwhere(matches):
+                region = occupied[i:i + ph, j:j + pw]
+                if region.any():
+                    continue
+                counts[pattern.name] += 1
+                region[:] = True
     return counts
 
 

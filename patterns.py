@@ -135,8 +135,8 @@ glider_phases = [
     [[OFF, OFF, ON],
      [ON, OFF, ON],
      [OFF, ON, ON]],
-    [[OFF, ON, OFF],
-     [ON, OFF, ON],
+    [[ON, OFF, OFF],
+     [OFF, ON, ON],
      [ON, ON, OFF]],
 ]
 Glider = Pattern("glider", glider_phases)

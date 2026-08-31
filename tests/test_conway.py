@@ -210,9 +210,29 @@ class PatternCensusTests(unittest.TestCase):
             inner = padded[1:-1, 1:-1]
             grid = empty(12)
             place(grid, 3, 3, inner)
-            if count_patterns(grid)["glider"] == 1:
+            counts = count_patterns(grid)
+            if counts["glider"] == 1 and sum(counts.values()) == 1:
                 detected += 1
         self.assertEqual(detected, len(Glider.variants))
+        self.assertEqual(len(Glider.variants), 16)
+
+    def test_pattern_families_do_not_overlap(self):
+        """No isolated still life / oscillator / spaceship template should
+        be claimed by a different named object."""
+        from patterns import all_patterns as patterns
+        for pattern in patterns:
+            for padded in pattern.variants:
+                inner = padded[1:-1, 1:-1]
+                grid = empty(max(inner.shape[0], inner.shape[1]) + 6)
+                place(grid, 2, 2, inner)
+                counts = count_patterns(grid)
+                self.assertEqual(
+                    counts[pattern.name],
+                    1,
+                    msg=f"{pattern.name} not detected\n{inner}",
+                )
+                others = {k: v for k, v in counts.items() if k != pattern.name and v}
+                self.assertFalse(others, msg=f"{pattern.name} also counted as {others}")
 
     def test_loaf_and_boat_and_tub(self):
         for pattern, name in (
