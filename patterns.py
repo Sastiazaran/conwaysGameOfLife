@@ -1,86 +1,193 @@
-## author : @asti
+"""Named Game of Life patterns used for census / detection.
+
+Each pattern stores every distinct rotation, reflection, and (for oscillators
+and spaceships) phase so isolated copies can be recognized regardless of
+orientation.
+"""
+
+from __future__ import annotations
+
+import numpy as np
 
 ON = 1
 OFF = 0
 
-class patterns:
-    def __init__(self, name, pattern):
-        self.name = name            ## name of config
-        self.pattern = pattern      ## pattern itself
 
-##############################################################################
+def _as_array(pattern):
+    return np.asarray(pattern, dtype=np.int8)
 
-## still
 
-# block
+def orientations(pattern):
+    """Return unique rotations and reflections of a 2-D pattern."""
+    arr = _as_array(pattern)
+    seen = set()
+    variants = []
+    for flipped in (arr, np.fliplr(arr)):
+        for k in range(4):
+            rot = np.rot90(flipped, k)
+            key = (rot.shape, rot.tobytes())
+            if key not in seen:
+                seen.add(key)
+                variants.append(rot)
+    return variants
+
+
+class Pattern:
+    """A named Life object with one or more phases."""
+
+    def __init__(self, name, phases):
+        self.name = name
+        seen = set()
+        variants = []
+        for phase in phases:
+            for orient in orientations(phase):
+                padded = np.pad(_as_array(orient), 1)
+                key = (padded.shape, padded.tobytes())
+                if key not in seen:
+                    seen.add(key)
+                    variants.append(padded)
+        # Prefer larger templates first so a big object is not counted as
+        # several smaller ones that share its bounding box.
+        variants.sort(key=lambda a: int(np.count_nonzero(a)), reverse=True)
+        self.variants = variants
+
+    @property
+    def live_cells(self):
+        return max(int(np.count_nonzero(v)) for v in self.variants)
+
+
+# ---------------------------------------------------------------------------
+# Still lifes
+# ---------------------------------------------------------------------------
+
 block = [[ON, ON],
-          [ON, ON]]                                                    ##
-Block = patterns("block", [block])                                              ##
+         [ON, ON]]
+Block = Pattern("block", [block])
 
-# beehive                                                                        ##
-beehive = [[OFF, ON, ON, OFF],[ON, OFF, OFF, ON],[OFF, ON, ON, OFF]]            #  #
-Beehive = patterns("beehive", [beehive])                                         ##
+beehive = [[OFF, ON, ON, OFF],
+           [ON, OFF, OFF, ON],
+           [OFF, ON, ON, OFF]]
+Beehive = Pattern("beehive", [beehive])
 
-# loaf
-loaf = [[OFF,ON,ON,OFF],[ON,OFF,OFF,ON],[OFF,ON,OFF,ON],[OFF,OFF,ON,OFF]]
-Loaf = patterns("loaf", [loaf])
+loaf = [[OFF, ON, ON, OFF],
+        [ON, OFF, OFF, ON],
+        [OFF, ON, OFF, ON],
+        [OFF, OFF, ON, OFF]]
+Loaf = Pattern("loaf", [loaf])
 
-# boat
-boat = [[ON,ON,OFF],[ON,OFF,ON],[OFF,ON,OFF]]
-Boat = patterns("boat", [boat])
+boat = [[ON, ON, OFF],
+        [ON, OFF, ON],
+        [OFF, ON, OFF]]
+Boat = Pattern("boat", [boat])
 
-# tub
-tub = [[OFF,ON,OFF],[ON,OFF,ON],[OFF,ON,OFF]]
-Tub = patterns("tub", [tub])
+tub = [[OFF, ON, OFF],
+       [ON, OFF, ON],
+       [OFF, ON, OFF]]
+Tub = Pattern("tub", [tub])
 
-stillList = [Block, Beehive, Loaf, Tub]
+# ---------------------------------------------------------------------------
+# Oscillators
+# ---------------------------------------------------------------------------
 
-##############################################################################
+blinker_phases = [
+    [[ON],
+     [ON],
+     [ON]],
+    [[ON, ON, ON]],
+]
+Blinker = Pattern("blinker", blinker_phases)
 
-## oscilators
+toad_phases = [
+    [[OFF, OFF, ON, OFF],
+     [ON, OFF, OFF, ON],
+     [ON, OFF, OFF, ON],
+     [OFF, ON, OFF, OFF]],
+    [[OFF, ON, ON, ON],
+     [ON, ON, ON, OFF]],
+]
+Toad = Pattern("toad", toad_phases)
 
-# blinker
-blinker = []
-blinker.append([[ON],[ON],[ON]])
-blinker.append([[ON,ON,ON]])
-Blinker = patterns("blinker", blinker)
+beacon_phases = [
+    [[ON, ON, OFF, OFF],
+     [ON, ON, OFF, OFF],
+     [OFF, OFF, ON, ON],
+     [OFF, OFF, ON, ON]],
+    [[ON, ON, OFF, OFF],
+     [ON, OFF, OFF, OFF],
+     [OFF, OFF, OFF, ON],
+     [OFF, OFF, ON, ON]],
+]
+Beacon = Pattern("beacon", beacon_phases)
 
-# toad
-toad = []
-toad.append([[OFF,OFF,ON,OFF],[ON,OFF,OFF,ON],[ON,OFF,OFF,ON],[OFF,ON,OFF,OFF]])
-toad.append([[OFF,ON,ON,ON],[ON,ON,ON,OFF]])
-Toad = patterns("toad", toad)
+# ---------------------------------------------------------------------------
+# Spaceships (canonical phases; orientations() covers direction)
+# ---------------------------------------------------------------------------
 
-# beacon
-beacon = []
-beacon.append([[ON,ON,OFF,OFF],[ON,ON,OFF,OFF],[OFF,OFF,ON,ON],[OFF,OFF,ON,ON]])
-beacon.append([[ON,ON,OFF,OFF],[ON,OFF,OFF,OFF],[OFF,OFF,OFF,ON],[OFF,OFF,ON,ON]])
-Beacon = patterns("beacon", beacon)
+# Four phases of a south-east glider. The previous repo listed only three
+# frames and one of them was not a glider.
+glider_phases = [
+    [[OFF, ON, OFF],
+     [OFF, OFF, ON],
+     [ON, ON, ON]],
+    [[ON, OFF, ON],
+     [OFF, ON, ON],
+     [OFF, ON, OFF]],
+    [[OFF, OFF, ON],
+     [ON, OFF, ON],
+     [OFF, ON, ON]],
+    [[ON, OFF, OFF],
+     [OFF, ON, ON],
+     [ON, ON, OFF]],
+]
+Glider = Pattern("glider", glider_phases)
 
-##############################################################################
-
-# spaceships
-
-glider = []
-glider.append([[OFF,ON,OFF],[OFF,OFF,ON],[ON,ON,ON]])
-glider.append([[ON,OFF,ON],[OFF,ON,ON],[OFF,ON,OFF]])
-glider.append([[ON,OFF,OFF],[OFF,ON,ON],[ON,ON,ON]])
-Glider = patterns("glider", glider)
-
-# light-weight spaceship
-lwss = []
-lwss.append([[ON,OFF,OFF,ON,OFF],[OFF,OFF,OFF,OFF,ON],[ON,OFF,OFF,OFF,ON],[OFF,ON,ON,ON,ON]])
-lwss.append([[OFF,OFF,ON,ON,OFF],[ON,ON,OFF,ON,ON],[ON,ON,ON,ON,OFF],[OFF,ON,ON,OFF,OFF]])
-lwss.append([[OFF,ON,ON,ON,ON],[ON,OFF,OFF,OFF,ON],[OFF,OFF,OFF,OFF,ON],[ON,OFF,OFF,ON,OFF]])
-lwss.append([[OFF,ON,ON,OFF,OFF],[ON,ON,ON,ON,OFF],[ON,ON,OFF,ON,ON],[OFF,OFF,ON,ON,OFF]])
-Lwss = patterns("light-weight spaceship", lwss)
-
-##############################################################################
+lwss_phases = [
+    [[ON, OFF, OFF, ON, OFF],
+     [OFF, OFF, OFF, OFF, ON],
+     [ON, OFF, OFF, OFF, ON],
+     [OFF, ON, ON, ON, ON]],
+    [[OFF, OFF, ON, ON, OFF],
+     [ON, ON, OFF, ON, ON],
+     [ON, ON, ON, ON, OFF],
+     [OFF, ON, ON, OFF, OFF]],
+    [[OFF, ON, ON, ON, ON],
+     [ON, OFF, OFF, OFF, ON],
+     [OFF, OFF, OFF, OFF, ON],
+     [ON, OFF, OFF, ON, OFF]],
+    [[OFF, ON, ON, OFF, OFF],
+     [ON, ON, ON, ON, OFF],
+     [ON, ON, OFF, ON, ON],
+     [OFF, OFF, ON, ON, OFF]],
+]
+Lwss = Pattern("light-weight spaceship", lwss_phases)
 
 still = [Block, Beehive, Loaf, Boat, Tub]
-oscilators = [Blinker, Toad, Beacon]
+oscillators = [Blinker, Toad, Beacon]
 spaceships = [Glider, Lwss]
 
-allPatterns = still + oscilators + spaceships
+# Larger objects first so an isolated LWSS is not also read as smaller debris.
+all_patterns = sorted(
+    still + oscillators + spaceships,
+    key=lambda p: p.live_cells,
+    reverse=True,
+)
 
-counters = dict()
+PATTERN_NAMES = [
+    "block",
+    "beehive",
+    "loaf",
+    "boat",
+    "tub",
+    "blinker",
+    "toad",
+    "beacon",
+    "glider",
+    "light-weight spaceship",
+]
+
+# Backwards-compatible aliases used by older snippets.
+allPatterns = all_patterns
+oscilators = oscillators
+stillList = still
+counters = {name: 0 for name in PATTERN_NAMES}
+patterns = Pattern

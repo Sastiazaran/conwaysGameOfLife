@@ -1,200 +1,306 @@
 """
-conway.py 
-A simple Python/matplotlib implementation of Conway's Game of Life.
-author: @asti
+conway.py
+A Python implementation of Conway's Game of Life with a pattern census.
+
+The grid is toroidal (edges wrap). Each generation an isolated copy of a
+known still life, oscillator, or spaceship is counted and written to a report.
 """
 
-import sys, argparse
+from __future__ import annotations
+
+import argparse
+import sys
+from pathlib import Path
+
 import numpy as np
-import matplotlib.pyplot as plt 
-import matplotlib.animation as animation
-from patterns import *
+
+from patterns import PATTERN_NAMES, all_patterns
 
 ON = 1
 OFF = 0
-vals = [ON, OFF]
 
-# files
-file = "reports/report5.txt"
-inputFile = "inputs/input5.in"
+ROOT = Path(__file__).resolve().parent
 
-# global variables
-currentGen = 0
-generations = 200
 
-def randomGrid(N):
-    """returns a grid of NxN random values"""
-    return np.random.choice(vals, N*N, p=[0.2, 0.8]).reshape(N, N)
+def random_grid(n, p_on=0.2, rng=None):
+    """Return an n x n grid with the given probability of a live cell."""
+    rng = np.random.default_rng(rng)
+    return rng.choice([ON, OFF], size=(n, n), p=[p_on, 1.0 - p_on]).astype(np.int8)
 
-# def addGlider(i, j, grid):
-#     """adds a glider with top left cell at (i, j)"""
-#     glider = np.array([[0,    0, 255], 
-#                        [255,  0, 255], 
-#                        [0,  255, 255]])
-#     grid[i:i+3, j:j+3] = glider
 
-def counter():
-    for element in allPatterns:
-        counters[element.name] = 0
+def add_glider(grid, i=1, j=1):
+    """Place a south-east glider with top-left cell at (i, j)."""
+    glider = np.array([[0, 1, 0],
+                       [0, 0, 1],
+                       [1, 1, 1]], dtype=np.int8)
+    grid[i:i + 3, j:j + 3] = glider
+    return grid
 
-def compareMatrix(matA,matB,width,height):
-    for i in range(width):
-        for j in range(height):
-            if(matA[i][j] != matB[i][j]):
-                return False
-    return True
 
-def update(frameNum, img, grid, neighbor, N):
-    # copy grid since we require 8 neighbors for calculation
-    # and we go line by line 
-    newGrid = grid.copy()
-    
-    # TODO: Implement the rules of Conway's Game of Life
-    global currentGen
-    global generations
+def load_input(path):
+    """Load width, height, generation count, and live cells from an input file.
 
-    if currentGen > generations:
-        exit()
+    Format:
+        <width> <height>
+        <generations>
+        <row> <col>
+        ...
+    """
+    path = Path(path)
+    with path.open() as fh:
+        lines = [line.strip() for line in fh if line.strip()]
 
-    counter()
+    if len(lines) < 2:
+        raise ValueError(f"{path}: expected at least a size line and a generation count")
 
-    for i in range(N):
-        for j in range(N):
-            # implementation of comparation of matrix 
-            if not neighbor[i,j]:   
-                neighbor[i,j] = 1
-                for element in allPatterns:
-                    for pat in element.pattern:
-                        width, height = len(pat), len(pat[0])
-                        if i + width + 1 > N or j + height + 1 > N:
-                            continue
+    try:
+        width, height = (int(x) for x in lines[0].split())
+        generations = int(lines[1])
+    except ValueError as exc:
+        raise ValueError(f"{path}: invalid header") from exc
 
-                        array = np.array(pat)
-                        newArray = np.zeros((width + 2, height + 2))
-                        newArray[1:width + 1, 1:height + 1] = array
-                        # print("array", array)
-                        # print("newarray", newArray)
+    if width <= 0 or height <= 0:
+        raise ValueError(f"{path}: grid size must be positive")
+    if generations < 0:
+        raise ValueError(f"{path}: generation count cannot be negative")
 
-                        if compareMatrix(newArray, grid[i:i+width+2, j:j+height+2], width+1, height+1):
-                            # print("comparando matriz")
-                            counters[element.name] += 1
-
-                            for a in range(i, i + width + 1):
-                                for b in range(j, j + height + 1):
-                                    neighbor[a,b] = 1
-                
-            # Counting the number of alive neighbors
-            neighbors = grid[(i-1)%N,(j-1)%N] + grid[(i-1)%N,j] + grid[(i-1)%N,(j+1)%N] \
-                      + grid[i,(j-1)%N] + grid[i,(j+1)%N] \
-                      + grid[(i+1)%N,(j-1)%N] + grid[(i+1)%N,j] + grid[(i+1)%N,(j+1)%N]
-            # Basic rules of Conway's Game Of Life
-            if grid[i,j] == ON and (neighbors < 2 or neighbors > 3):
-                newGrid[i,j] = OFF
-            elif grid[i,j] == OFF and neighbors == 3:
-                newGrid[i,j] = ON
-
-    currentGen += 1
-
-    # report generator
-    #print(counters)
-
-    f = open(file, "a")
-    total = 0
-    for key in counters:
-        total += counters[key]
-    
-    f.write("iteration: {}\n".format(currentGen))
-
-    for key, val in counters.items():
-        chain = key.ljust(10)
-        chain_val = str(val).ljust(6)
-        percentage = 0.0
-        if total > 0:
-            percentage = float(val) / total * 100
-        chain_percentage = "{:.5f}".format(percentage).ljust(6)
-        f.write("|{}\t|\t{}\t\t|\t{}\t\t|\n".format(chain, chain_val, chain_percentage))
-
-    chain_total = str(total).ljust(6)
-
-    f.write("|total      |\t{}\t\t|               |\n".format(chain_total))
-    f.write("\n")
-    f.close()
-
-    for i in range(N):
-        for j in range(N):
-            neighbor[i, j] = 0
-
-    # update data
-    img.set_data(newGrid)
-    grid[:] = newGrid[:]
-    return img,
-
-# main() function
-def main():
-    # Command line args are in sys.argv[1], sys.argv[2] ..
-    # sys.argv[0] is the script name itself and can be ignored
-    # parse arguments
-    parser = argparse.ArgumentParser(description="Runs Conway's Game of Life system.py.")
-    # TODO: add arguments
-    
-    # :(
-
-    # set grid size
-    N = 100
-    M = 100
-        
-    # set animation update interval
-    updateInterval = 50
-
-    # declare grid
-    grid = np.array([])
-    neighbor = np.array([])
-
-    # reading input 
-    f = open(inputFile, "r")
-    lines = f.readlines()
-
-    width, height = lines[0].split()
-    width, height = int(width), int(height)
-    N = width
-    M = height
-    
-
-    generations = int(lines[1])
-    grid = np.zeros((N,M))
-    neighbor = np.zeros((N,M))
-
+    grid = np.zeros((width, height), dtype=np.int8)
     for line in lines[2:]:
-        i, j = line.split()
-        i, j = int(i), int(j)
-        grid[i,j] = ON
+        parts = line.split()
+        if len(parts) != 2:
+            raise ValueError(f"{path}: expected 'row col', got {line!r}")
+        i, j = int(parts[0]), int(parts[1])
+        if not (0 <= i < width and 0 <= j < height):
+            raise ValueError(f"{path}: cell ({i}, {j}) is outside {width}x{height}")
+        grid[i, j] = ON
+    return grid, generations
 
 
-    # glider
-    # grid[50, 50:53] = 1
-    # grid[51, 52] = 1
-    # grid[52, 51] = 1
-    # grid[52, 50] = 1
-    # grid[52, 49] = 1
+def next_generation(grid):
+    """Apply the B3/S23 rule on a toroidal grid."""
+    neighbors = sum(
+        np.roll(np.roll(grid, di, 0), dj, 1)
+        for di in (-1, 0, 1)
+        for dj in (-1, 0, 1)
+        if (di, dj) != (0, 0)
+    )
+    survive = (grid == ON) & ((neighbors == 2) | (neighbors == 3))
+    born = (grid == OFF) & (neighbors == 3)
+    return np.where(survive | born, ON, OFF).astype(np.int8)
 
 
+def count_patterns(grid):
+    """Count isolated copies of each known pattern on the current grid.
 
-    # populate grid with random on/off - more off than on
-    #grid = randomGrid(N)
-    # Uncomment lines to see the "glider" demo
-    #grid = np.zeros(N*N).reshape(N, N)
-    #addGlider(1, 1, grid)
+    A match requires the pattern cells plus a one-cell dead border, so objects
+    that share a neighborhood are not counted as several overlapping patterns.
+    """
+    g = np.asarray(grid, dtype=np.int8)
+    rows, cols = g.shape
+    occupied = np.zeros((rows, cols), dtype=bool)
+    counts = {name: 0 for name in PATTERN_NAMES}
+    windows_by_shape = {}
 
-    # set up animation
+    for pattern in all_patterns:
+        for padded in pattern.variants:
+            ph, pw = padded.shape
+            if ph > rows or pw > cols:
+                continue
+            key = (ph, pw)
+            if key not in windows_by_shape:
+                windows_by_shape[key] = np.lib.stride_tricks.sliding_window_view(g, key)
+            matches = np.all(windows_by_shape[key] == padded, axis=(2, 3))
+            if not matches.any():
+                continue
+            for i, j in np.argwhere(matches):
+                region = occupied[i:i + ph, j:j + pw]
+                if region.any():
+                    continue
+                counts[pattern.name] += 1
+                region[:] = True
+    return counts
+
+
+def format_iteration(iteration, counts):
+    """Render one census block in the report format."""
+    total = sum(counts.values())
+    lines = [f"iteration: {iteration}"]
+    for name in PATTERN_NAMES:
+        val = counts[name]
+        percent = (float(val) / total * 100.0) if total else 0.0
+        lines.append(
+            f"|{name.ljust(24)}|\t{str(val).ljust(6)}\t|\t{percent:.5f}\t|"
+        )
+    lines.append(f"|{'total'.ljust(24)}|\t{str(total).ljust(6)}\t|\t{'':<7}\t|")
+    lines.append("")
+    return "\n".join(lines) + "\n"
+
+
+def write_report(path, history):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w") as fh:
+        for iteration, counts in enumerate(history, start=1):
+            fh.write(format_iteration(iteration, counts))
+
+
+def simulate(grid, generations):
+    """Run `generations` recorded iterations, starting from the initial grid.
+
+    Iteration 1 is the initial configuration. Each subsequent iteration is one
+    Game of Life step. Returns (final_grid, list of per-iteration counts).
+    """
+    grid = np.array(grid, dtype=np.int8, copy=True)
+    history = []
+    steps = max(int(generations), 0)
+    for iteration in range(steps):
+        history.append(count_patterns(grid))
+        if iteration + 1 < steps:
+            grid = next_generation(grid)
+    return grid, history
+
+
+def _has_display():
+    import os
+    return bool(os.environ.get("DISPLAY") or os.environ.get("WAYLAND_DISPLAY"))
+
+
+def animate(grid, generations, interval, output=None):
+    """Show (or save) a matplotlib animation while writing the census report."""
+    import matplotlib.pyplot as plt
+    import matplotlib.animation as animation
+
+    grid = np.array(grid, dtype=np.int8, copy=True)
+    history = []
+    steps = max(int(generations), 0)
+    state = {"grid": grid, "iteration": 0}
+
     fig, ax = plt.subplots()
-    img = ax.imshow(grid, interpolation='nearest')
-    ani = animation.FuncAnimation(fig, update, fargs=(img, grid, neighbor, N, ),
-                                  frames = 10,
-                                  interval=updateInterval,
-                                  save_count=50)
+    img = ax.imshow(grid, interpolation="nearest", vmin=0, vmax=1, cmap="binary")
+    ax.set_xticks([])
+    ax.set_yticks([])
+    title = ax.set_title("generation 0")
 
+    def update(_frame):
+        if state["iteration"] >= steps:
+            return img,
+
+        history.append(count_patterns(state["grid"]))
+        state["iteration"] += 1
+        title.set_text(f"generation {state['iteration'] - 1}")
+        img.set_data(state["grid"])
+
+        if state["iteration"] < steps:
+            state["grid"] = next_generation(state["grid"])
+        elif output:
+            write_report(output, history)
+        return img,
+
+    ani = animation.FuncAnimation(
+        fig,
+        update,
+        frames=max(steps, 1),
+        interval=interval,
+        blit=False,
+        repeat=False,
+        cache_frame_data=False,
+    )
     plt.show()
+    # If the window closed before the last frame flushed the report:
+    if output and len(history) < steps:
+        remaining = steps - len(history)
+        for _ in range(remaining):
+            history.append(count_patterns(state["grid"]))
+            state["grid"] = next_generation(state["grid"])
+        write_report(output, history[:steps])
+    return ani
 
-# call main
-if __name__ == '__main__':
-    main()
+
+def parse_args(argv=None):
+    parser = argparse.ArgumentParser(
+        description="Run Conway's Game of Life and census known patterns."
+    )
+    parser.add_argument(
+        "-i", "--input",
+        default=str(ROOT / "inputs" / "input1.in"),
+        help="initial configuration file",
+    )
+    parser.add_argument(
+        "-o", "--output",
+        default=None,
+        help="census report path (default: reports/<input-stem>.txt)",
+    )
+    parser.add_argument(
+        "--interval",
+        type=int,
+        default=50,
+        help="animation interval in milliseconds",
+    )
+    parser.add_argument(
+        "--no-display",
+        action="store_true",
+        help="skip the animation window and only write the report",
+    )
+    parser.add_argument(
+        "--random",
+        type=int,
+        metavar="N",
+        default=None,
+        help="ignore --input and start from an NxN random grid",
+    )
+    parser.add_argument(
+        "--generations",
+        type=int,
+        default=None,
+        help="override the generation count from the input file",
+    )
+    parser.add_argument(
+        "--glider",
+        action="store_true",
+        help="seed a glider on an empty 50x50 grid (or --random size)",
+    )
+    return parser.parse_args(argv)
+
+
+def default_report_path(input_path):
+    stem = Path(input_path).stem
+    name = stem.replace("input", "report") if stem.startswith("input") else f"{stem}.txt"
+    if not name.endswith(".txt"):
+        name += ".txt"
+    return ROOT / "reports" / name
+
+
+def main(argv=None):
+    args = parse_args(argv)
+
+    if args.glider:
+        n = args.random or 50
+        grid = np.zeros((n, n), dtype=np.int8)
+        add_glider(grid)
+        generations = args.generations if args.generations is not None else 40
+        input_label = "glider"
+    elif args.random:
+        grid = random_grid(args.random)
+        generations = args.generations if args.generations is not None else 50
+        input_label = f"random{args.random}"
+    else:
+        grid, generations = load_input(args.input)
+        if args.generations is not None:
+            generations = args.generations
+        input_label = args.input
+
+    output = args.output or str(default_report_path(input_label))
+    headless = args.no_display or not _has_display()
+
+    if headless:
+        _, history = simulate(grid, generations)
+        write_report(output, history)
+        print(f"wrote {len(history)} iterations to {output}")
+        return 0
+
+    animate(grid, generations, args.interval, output=output)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
